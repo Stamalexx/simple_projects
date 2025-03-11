@@ -19,8 +19,8 @@ def le_game():
         followers_a = compare_a['follower_count']
         followers_b = compare_b['follower_count']
 
-        print(f"Compare A followers: {followers_a}") #for testing
-        print(f"Compare B followers: {followers_b}")#for testing
+        # print(f"Compare A followers: {followers_a}") #for testing
+        # print(f"Compare B followers: {followers_b}")#for testing
 
         print(f"Compare A: {compare_a['name']},a {compare_a['description'].lower()} from {compare_a['country']}")
         print(art.vs)
